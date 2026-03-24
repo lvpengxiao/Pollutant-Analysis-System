@@ -26,3 +26,23 @@
 ```bash
 git clone https://github.com/你的GitHub用户名/你的仓库名.git
 cd 你的仓库名
+
+2. 安装依赖库
+建议使用 Python 3.9 或以上版本。在虚拟环境中运行：
+
+<BASH>
+pip install customtkinter pandas openpyxl numpy scipy scikit-learn xgboost lightgbm catboost pygam
+3. 运行程序
+
+<BASH>
+python 3.py
+
+🤝 贡献与反馈 (Contributing & Feedback)
+欢迎任何形式的贡献！如果您在使用过程中发现了 Bug，或者有新功能的建议：
+
+欢迎在项目的 Issues 页面提交问题反馈。
+如果您修复了问题或优化了代码，欢迎提交 Pull Request。
+📄 开源协议 (License)
+本项目遵循 MIT License 开源协议。您可以自由地使用、修改和分发本代码，但请保留原作者的版权声明。
+
+作者: 比方
