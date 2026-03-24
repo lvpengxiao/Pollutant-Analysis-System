@@ -38,14 +38,14 @@ pip install customtkinter pandas openpyxl numpy scipy scikit-learn xgboost light
 python 3.py
 ```
 ---
-🤝 贡献与反馈 (Contributing & Feedback)
+## 🤝 贡献与反馈 (Contributing & Feedback)
 欢迎任何形式的贡献！如果您在使用过程中发现了 Bug，或者有新功能的建议：
 
 欢迎在项目的 Issues 页面提交问题反馈。
 如果您修复了问题或优化了代码，欢迎提交 Pull Request。
 
 
-📄 开源协议 (License)
+## 📄 开源协议 (License)
 本项目遵循 MIT License 开源协议。您可以自由地使用、修改和分发本代码，但请保留原作者的版权声明。
 
 作者: 比方
