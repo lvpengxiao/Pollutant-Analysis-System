@@ -36,7 +36,7 @@ pip install customtkinter pandas openpyxl numpy scipy scikit-learn xgboost light
 
 <BASH>
 python 3.py
-
+```bash
 🤝 贡献与反馈 (Contributing & Feedback)
 欢迎任何形式的贡献！如果您在使用过程中发现了 Bug，或者有新功能的建议：
 
