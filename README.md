@@ -1,10 +1,39 @@
 # 新污染物影响因素相对重要性分析系统
 
-摘要：本系统面向新污染物环境数据分析任务，构建多模型机器学习框架以定量表征影响因素对目标污染物浓度的相对重要性（RI），并通过可解释性分析与交叉验证提升结果的稳健性与可复现性。
+[![Release](https://img.shields.io/github/v/release/lvpengxiao/Pollutant-Analysis-System?label=release)](https://github.com/lvpengxiao/Pollutant-Analysis-System/releases)
+[![Stars](https://img.shields.io/github/stars/lvpengxiao/Pollutant-Analysis-System?style=social)](https://github.com/lvpengxiao/Pollutant-Analysis-System/stargazers)
+[![License](https://img.shields.io/github/license/lvpengxiao/Pollutant-Analysis-System)](LICENSE)
 
-本项目是一个面向新污染物研究的桌面分析系统，核心目标是通过机器学习评估影响因素的相对重要性（Relative Importance, RI），辅助科研人员进行变量筛选、机制讨论与结果解释。系统覆盖数据导入、预处理、建模、交叉验证、可视化与报告导出全流程，强调结果可复现与过程可追溯。
+以机器学习相对重要性（RI）评估为核心的一体化桌面分析平台，面向新污染物研究与环境数据解释。
 
-一句话定位：以 RI 评估为核心的零代码图形化机器学习分析平台。
+- 零代码全流程：导入 -> 预处理 -> 建模 -> 交叉验证 -> 可视化 -> 导出
+- 多模型可解释：RF/AdaBoost/XGBoost/LightGBM/CatBoost/GAM/Stacking + SHAP + Spearman
+- 结果可复现：统一分析口径、关键参数可追踪、支持报告输出
+
+English: A desktop ML system for pollutant studies, focused on Relative Importance (RI) estimation with reproducible preprocessing, modeling, cross-validation, and explainability outputs.
+
+## 快速命令
+
+普通用户（推荐）
+
+```text
+打开 Releases 下载 ZIP：
+https://github.com/lvpengxiao/Pollutant-Analysis-System/releases
+解压后双击主程序即可运行
+```
+
+开发者（源码运行）
+
+```bash
+pip install -r requirements.txt
+python run.py
+```
+
+## 适用人群与场景
+
+- 环境科研人员：用于变量筛选、结果解释与论文图表支撑
+- 环境管理与技术人员：用于污染因素影响排序与辅助研判
+- 教学与训练场景：用于机器学习建模流程演示与实验复现
 
 ## 当前验证状态
 
