@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.spec.bak
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime logs and temp
+*.log
+*.tmp
+
+# Analysis outputs (generated at runtime)
+分析结果*/
+
+# Optional local data exports
+*.xlsx
+*.csv
+*.tsv
+
+# Keep source data samples if needed by whitelisting path later
+# !data/sample/

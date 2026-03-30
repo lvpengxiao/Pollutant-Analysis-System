@@ -1,0 +1,15 @@
+customtkinter
+matplotlib
+numpy
+pandas
+scipy
+scikit-learn
+openpyxl
+shap
+xgboost
+lightgbm
+catboost
+platformdirs
+chardet
+statsmodels
+pygam
